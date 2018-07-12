@@ -22,6 +22,8 @@
       }
 
       function moveDodgerRight() {
+        console.log(dodger.style.width);
+        var rightNow = dodger.style.width
         var rightNumbers = dodger.style.right.replace('px', '')
         var right = parseInt(rightNumbers, 10);
 
